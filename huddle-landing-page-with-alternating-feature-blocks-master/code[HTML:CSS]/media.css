@@ -183,7 +183,7 @@
 
 
 
-@media (min-width: 316px) and (max-width: 652px) {
+@media (min-width: 320px) and (max-width: 652px) {
     body {
         overflow-x: hidden;
         position: static;
@@ -283,7 +283,7 @@
     #wrapper-nav-footer {
         grid-column: 1/-1;
         width: 100vw;
-        min-height: 110vh;
+        min-height: 115vh;
      
     }
 
@@ -334,6 +334,6 @@
     /*base footer*/
     .attribution {
         width: 100vw;
-        padding-top: .2rem;
+        padding-top: .5rem;
     }
 }
