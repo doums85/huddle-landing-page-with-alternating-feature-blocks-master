@@ -1,0 +1,339 @@
+/*800px and 1024px*/
+
+@media (min-width: 800px) and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /*resize width*/
+    #subtext-banner {
+        width: 80vw;
+        text-align: center;
+    }
+
+    #banner {
+        height: auto;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, auto);
+        grid-row-gap: 8rem;
+        padding-bottom: 3rem;
+    }
+
+    #subtext-banner button {
+        width: 55vw;
+        margin: 0 auto;
+        padding: .2rem;
+    }
+
+    #banner img {
+        display: block;
+        width: 85vw;
+    }
+
+    /*footer*/
+    #wrapper-footer-menu {
+        grid-template-columns: 15vw 70vw 15vw;
+        grid-template-rows: repeat(2, 12vh) 50vh;
+    }
+
+    #call-to-action {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    #call-to-action button {
+        width: 50vw;
+    }
+
+    /*    footer nav*/
+    #wrapper-nav-footer {
+        min-height:80vh;
+    }
+
+    #nav-footer {
+        grid-column-gap: 1rem;
+    }
+
+    .attribution {
+        width: 100vw;
+    }
+}
+
+@media (min-width: 653px) and (max-width: 800px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #nav button {
+        width: 20vw;
+    }
+
+    #subtext-banner {
+        width: 80vw;
+        text-align: center;
+    }
+
+    #banner {
+        height: auto;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, auto);
+        grid-row-gap: 8rem;
+        padding-bottom: 3rem;
+    }
+
+    #subtext-banner button {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    #banner img {
+        display: block;
+        width: 85vw;
+    }
+
+    /*    advantage*/
+    .advantage-card {
+        width: 80vw;
+    }
+
+    .advantage {
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .advantage img {
+        width: 50vw;
+        display: block;
+        margin: 0 auto 3rem auto;
+    }
+
+    .subtext-advantage {
+        width: 50vw;
+    }
+
+    /*footer*/
+    #wrapper-footer-menu {
+        grid-template-columns: 15vw 70vw 15vw;
+        grid-template-rows: repeat(2, 12vh) 65vh;
+    }
+
+    #call-to-action {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    #call-to-action button {
+        width: 50vw;
+    }
+
+    /*    footer nav*/
+    #wrapper-nav-footer {
+        min-height: 90vh;
+    }
+
+    #nav-footer {
+        width: 95vw;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(6, auto);
+
+    }
+
+    #col-2,
+    #col-3,
+    #col-4 {
+        width: 80vw;
+        grid-column: 1/-1;
+    }
+
+    #col-1 p {
+        width: 50vw;
+    }
+
+    #col-2 {
+        margin-top: 3rem;
+    }
+
+    #col-3 {
+        margin-bottom: 3rem;
+    }
+
+    #col-4 {
+        width: 95vw;
+        text-align: center;
+    }
+
+    #copyright {
+        width: 95vw;
+        grid-column: 1/2;
+        grid-row: 6/7;
+        text-align: center;
+    }
+
+    .attribution {
+        width: 100vw;
+        padding: .5rem;
+    }
+}
+
+
+
+
+
+@media (min-width: 316px) and (max-width: 652px) {
+    body {
+        overflow-x: hidden;
+        position: static;
+    }
+
+    .grid-container {
+        width: 100vw;
+        position: relative;
+    }
+
+    #nav img {
+        width: 25vw;
+    }
+
+    #nav button {
+        width: 30vw;
+    }
+
+    #subtext-banner {
+        width: 80vw;
+        grid-row-gap: 1rem;
+        text-align: center;
+    }
+
+    #banner {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, auto);
+        grid-row-gap: 10rem;
+        padding-bottom: 3rem;
+    }
+
+    #subtext-banner button {
+        width: 60vw;
+        padding: .8rem;
+        margin: 0 auto;
+    }
+
+    #banner img {
+        display: block;
+        width: 85vw;
+
+    }
+
+    /*    advantage*/
+    .advantage-card {
+        width: 80vw;
+        height: 55vh;
+        margin: auto;
+    }
+
+    .advantage {
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .advantage img {
+        width: 50vw;
+        display: block;
+        margin: 3rem auto  0;
+    }
+
+    .subtext-advantage {
+        width: 70vw;
+        text-align: center;
+    }
+
+    /*footer*/
+    #wrapper-footer-menu {
+        width: 100vw;
+        grid-template-columns: auto 90vw auto;
+        grid-template-rows: repeat(2, 15vh) 80vh;
+    }
+
+    #call-to-action {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    #call-to-action h1 {
+        font-size: 1.1rem;
+    }
+
+    #call-to-action button {
+        width: 60vw;
+        padding: .9rem;
+    }
+
+    #call-to-action button a {
+        font-size: .8rem;
+    }
+
+    /*    footer nav*/
+    #wrapper-nav-footer {
+        grid-column: 1/-1;
+        width: 100vw;
+        min-height: 110vh;
+     
+    }
+
+    #nav-footer {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(6, auto);
+    }
+
+    /*    col*/
+    #col-1 p {
+        width: 70vw;
+    }
+
+    .item-col-1 {
+        grid-column-gap: 2rem;
+    }
+
+    #col-2,
+    #col-3,
+    #col-4 {
+        grid-column: 1/-1;
+    }
+
+    #col-2 {
+        margin-top: 3rem;
+    }
+
+    #col-3 {
+        margin-bottom: 1rem;
+    }
+
+    #col-4 {
+        width: 95vw;
+        text-align: center;
+    }
+
+    #col-4 a:hover {
+        transform: none;
+    }
+
+    #copyright {
+        width: 95vw;
+        grid-column: 1/2;
+        grid-row: 6/7;
+        text-align: center;
+    }
+
+    /*base footer*/
+    .attribution {
+        width: 100vw;
+        padding-top: .2rem;
+    }
+}
