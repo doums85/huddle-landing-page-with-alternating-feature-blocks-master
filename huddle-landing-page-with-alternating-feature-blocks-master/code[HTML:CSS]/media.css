@@ -258,7 +258,7 @@
     #wrapper-footer-menu {
         width: 100vw;
         grid-template-columns: auto 90vw auto;
-        grid-template-rows: repeat(2, 15vh) 80vh;
+        grid-template-rows: repeat(2, 15vh) 79vh;
     }
 
     #call-to-action {
