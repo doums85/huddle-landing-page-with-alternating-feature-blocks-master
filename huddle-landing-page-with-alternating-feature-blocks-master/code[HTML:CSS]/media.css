@@ -258,7 +258,7 @@
     #wrapper-footer-menu {
         width: 100vw;
         grid-template-columns: auto 90vw auto;
-        grid-template-rows: repeat(2, 15vh) 79vh;
+        grid-template-rows: repeat(2, 15vh) 100vh;
     }
 
     #call-to-action {
@@ -283,7 +283,7 @@
     #wrapper-nav-footer {
         grid-column: 1/-1;
         width: 100vw;
-        min-height: 115vh;
+        min-height: 140vh;
      
     }
 
